@@ -1,0 +1,41 @@
+h1{
+  color:blue;
+}
+
+nav
+ { 
+  background-color: #aaaaaa;
+    display: inline-block;
+        width: 1270px;
+            text-align: left;
+ }
+  nav ul 
+  { 
+     list-style-type: none;
+  }
+  nav li 
+   { 
+          display: inline-block;   
+          margin-right: 15px;
+           }
+            nav a
+             {
+                 font-size: 1.3em;    
+    color:white;   
+     padding-bottom: 3px;  
+       text-decoration: none;
+        } 
+body{
+  background: blur(18px);
+}
+
+
+
+
+
+img {
+  height: 300px;
+  width: 1260px;
+    opacity: 1;
+    filter: alpha(opacity=10);
+}
