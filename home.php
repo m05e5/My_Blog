@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html>
 <head>
 	<div class="background-image"><style>
@@ -27,13 +27,63 @@
 			 </ul>
 		</nav></br></br>
 <h1><b><i>HOME</i></b></h1>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
 
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 250px;
+    height:250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a sport blog</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="med.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a Medecinal blog</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="news.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a news blog</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="mountains.jpg">
+    <img src="mo.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a sport blog</div>
+</div>
 	
 
 
 
 
- <img src="images.JPG" alt="Photo de montagne" />
- <img src="images/monta.jpg" alt="Photo de montagne" />	
+ 
 </body>
 </html>
