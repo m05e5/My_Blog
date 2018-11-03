@@ -8,6 +8,8 @@
 				background-size: cover;
 				
 			}
+			
+			
 
 		</style>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -25,11 +27,13 @@
 			 </ul>
 		</nav></br></br>
 <h1><b><i>HOME</i></b></h1>
+
 	
 
 
 
 
-
+ <img src="images.JPG" alt="Photo de montagne" />
+ <img src="images/monta.jpg" alt="Photo de montagne" />	
 </body>
 </html>
