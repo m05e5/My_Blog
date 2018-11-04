@@ -4,7 +4,7 @@ h1{
 
 nav
  { 
-  background-color: #aaaaaa;
+  background-color:rgb(158, 0, 12);
     display: inline-block;
         width: 1270px;
             text-align: left;
@@ -20,10 +20,10 @@ nav
            }
             nav a
              {
-                 font-size: 1.3em;    
-    color:white;   
-     padding-bottom: 3px;  
-       text-decoration: none;
+                font-size: 1.3em;    
+                color:black;   
+                padding-bottom: 3px;  
+                text-decoration: none;
         } 
 body{
   background: blur(18px);

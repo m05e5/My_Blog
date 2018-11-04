@@ -4,7 +4,7 @@
 	<div class="background-image"><style>
 			body 
 			{
-				background-image: url('im.JPG');
+				background-color:rgb(255, 193, 127);
 				background-size: cover;
 				
 			}
@@ -18,15 +18,14 @@
 </head>
 <body>
 
-<center><h1><b>Welcom to my super blog</b></h1></center>
+<center><h1><b style="color:white ">Welcom to my super blog</b></h1></center>
 <nav>   
 			 <ul>
-		     	<li><a href="home.php">Home</a></li>
+		     	<li><a href="home.php" >Home</a></li>
 		     	<li><a href="sign-up.php">sign_up</a></li>
 		    	 <li><a href="log-in.php">log_in</a></li>    
 			 </ul>
 		</nav></br></br>
-<h1><b><i>HOME</i></b></h1>
 <style>
 div.gallery {
     margin: 5px;
@@ -41,7 +40,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 299px;
+    width: 288px;
     height:250px;
 }
 
