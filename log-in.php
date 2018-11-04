@@ -21,7 +21,7 @@
 				 <ul>  
 		    	 	<li><a href="Home.php">Home</a></li> 
 		     		<li><a href="sign-up.php">sign_up</a></li>
-			    	 <li><a href="log-in.php">log_in</a></li>    
+			    	 <li><a style="color: white;" href="log-in.php">log_in</a></li>    
 				 </ul>
 		</nav>
 		<p>

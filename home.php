@@ -21,7 +21,7 @@
 <center><h1><b style="color:white ">Welcom to my super blog</b></h1></center>
 <nav>   
 			 <ul>
-		     	<li><a href="home.php" >Home</a></li>
+		     	<li><a style="color: white;" href="home.php" >Home</a></li>
 		     	<li><a href="sign-up.php">sign_up</a></li>
 		    	 <li><a href="log-in.php">log_in</a></li>    
 			 </ul>
