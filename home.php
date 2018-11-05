@@ -4,7 +4,7 @@
 	<div class="background-image"><style>
 			body 
 			{
-				background-color:rgb(255, 193, 127);
+				background-color:rgb(255, 255, 255);
 				background-size: cover;
 				
 			}
@@ -32,7 +32,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 299px;
-    background-color:white; 
+    background-color:rgb(0, 255, 12); 
 }
 
 div.gallery:hover {
