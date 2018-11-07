@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<center><h1><b style="color:white ">Welcom to my super blog</b></h1></center>
+<center><h1><b style="color:rgb(0, 0, 0) ">Welcom to my super blog</b></h1></center>
 <nav>   
 			 <ul>
 		     	<li><a style="color: white;" href="home.php" >Home</a></li>
