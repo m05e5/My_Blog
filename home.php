@@ -37,11 +37,13 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
+    background-color:rgb(0, 255, 255);
 }
 
 div.gallery img {
     width: 288px;
     height:250px;
+    border-radius: 15%;
 }
 
 div.desc {
