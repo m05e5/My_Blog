@@ -13,7 +13,8 @@
 		</nav></br></br>
 </head>
 <body>
-<textarea name="message" rows="8" cols="45"> Votre message ici.
+	<p>here you can write all the news you like about sport</p>
+<textarea name="message" rows="10" cols="50"> Votre message ici.
   </textarea>
 </body>
 </html>
