@@ -55,7 +55,7 @@ div.desc {
 <body>
 
 <div class="gallery">
-  <a target="_blank" href="fjords.jpg">
+  <a target="_blank" href="sport_blog.php">
     <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
   </a>
   <div class="desc">Here you can create a sport blog</div>
