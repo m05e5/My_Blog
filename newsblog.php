@@ -13,6 +13,7 @@
 		</nav></br></br>
 </head>
 <body>
+	<p>here you can write all the news you like</p>
 <textarea name="message" rows="10" cols="50"> Votre message ici.</textarea>
 </body>
 </html>

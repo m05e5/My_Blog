@@ -69,7 +69,7 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="lights.jpg">
+  <a target="_blank" href="newsblog.php">
     <img src="news.jpg" alt="Northern Lights" width="300" height="200">
   </a>
   <div class="desc">Here you can create a news blog</div>
