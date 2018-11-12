@@ -62,7 +62,7 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="forest.jpg">
+  <a target="_blank" href="medblog.php">
     <img src="med.jpg" alt="Forest" width="300" height="200">
   </a>
   <div class="desc">Here you can create a Medecinal blog</div>
