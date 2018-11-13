@@ -16,5 +16,18 @@
 	<p>here you can write all the news you like about medecine</p>
 <textarea name="message" rows="10" cols="50"> Votre message ici.
   </textarea>
+  <div class="gallery">
+  <a target="_blank" href="sport_blog.php">
+    <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a sport blog</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="medblog.php">
+    <img src="med.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Here you can create a Medecinal blog</div>
+</div>
 </body>
 </html>
