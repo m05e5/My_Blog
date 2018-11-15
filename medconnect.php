@@ -17,7 +17,7 @@
 	
 		if ($conn->query($sql) === TRUE) 
 		{
-    		echo "New record created successfully";
+    		echo $_POST['message'];
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
 		}
