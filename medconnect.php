@@ -13,7 +13,7 @@
     	die("Connection failed: " . $conn->connect_error);
 	}  
 	
-		$sql = "INSERT INTO medblog (comment) VALUES ('".$_POST['medconnect']."')";
+		$sql = "INSERT INTO medblog (comment) VALUES ('".$_POST['message']."')";
 	
 		if ($conn->query($sql) === TRUE) 
 		{
