@@ -20,7 +20,7 @@
     		echo $_POST['message'];
     		 ?>
     		<form method="post" action="medblog.php">
-    		</br><center><input type="submit" value="send" /></center>
+    		</br><center><input type="submit" value="Back to my blog" /></center>
 			</form>	<?php
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
