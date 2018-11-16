@@ -19,7 +19,7 @@
 		{
     		echo $_POST['message'];
     		 ?>
-    		<form method="post" action="spblog.php">
+    		<form method="post" action="sport_blog.php">
     		</br><center><input type="submit" value="Back to my blog" /></center>
 			</form>	<?php
 		} else {
