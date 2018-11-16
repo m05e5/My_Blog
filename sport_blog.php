@@ -14,7 +14,10 @@
 </head>
 <body>
 	<p>here you can write all the news you like about sport</p>
+	<form method="post" action="spconnect.php">
 <textarea name="message" rows="10" cols="50"> Votre message ici.
   </textarea>
+  <center><input type="submit" value="send" /></center>
+</form>
 </body>
 </html>
