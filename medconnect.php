@@ -18,6 +18,10 @@
 		if ($conn->query($sql) === TRUE) 
 		{
     		echo $_POST['message'];
+    		 ?>
+    		<form method="post" action="medblog.php">
+    		</br><center><input type="submit" value="send" /></center>
+			</form>	<?php
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
 		}

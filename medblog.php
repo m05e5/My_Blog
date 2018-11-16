@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Super_Blog</title>
-	<center><h1><b style="color:black ">Welcom to my super blog</b></h1></center>
+	<center><h1><b style="color:black ">Welcome to my super blog</b></h1></center>
 <nav>   
 			 <ul>
 		     	<li><a href="home.php" >Home</a></li>

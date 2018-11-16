@@ -21,6 +21,7 @@
     		echo "New record created successfully";
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
+    	 ?><center><input type="submit" value="send" /></center><?php
 		}
 	}
 $conn->close();
