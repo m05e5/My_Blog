@@ -16,7 +16,7 @@
 	<p>here you can write all the news you like</p>
 	<form method="post" action="medconnect.php">
 <textarea name="message" rows="10" cols="50"> Votre message ici.</textarea>
-	 <center><input type="submit" value="send" /></center>
+<input type="submit" value="send" />
 </form>
 </body>
 </html>
