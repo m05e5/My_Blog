@@ -20,7 +20,7 @@
     		echo $_POST['message'];
     		 ?>
     		<form method="post" action="sport_blog.php">
-    		</br><center><input type="submit" value="Back to my blog" /></center>
+    		</br><input type="submit" value="Back to my blog" />
 			</form>	<?php
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
