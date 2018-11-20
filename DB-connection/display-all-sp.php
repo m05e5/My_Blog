@@ -13,12 +13,12 @@
     	die("Connection failed: " . $conn->connect_error);
 	}  
 
-	$sql = "SELECT message FROM spblog";
+	$sql = "SELECT commennt FROM spblog";
 	$result = $conn->query($sql);
 if ($result->num_rows >0){
 		//output data of each row
 		while ($row =$result->num_rows >0) {
-			echo $_POST['Email'];
+			echo $_POST['message'];
 		}
 		} else {
     	echo "0 result";
