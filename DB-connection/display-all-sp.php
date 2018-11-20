@@ -13,20 +13,16 @@
     	die("Connection failed: " . $conn->connect_error);
 	}  
 
-	$sql = "SELECT Email, password FROM users";
+	$sql = "SELECT message FROM spblog";
 	$result = $conn->query($sql);
 if ($result->num_rows >0){
 		//output data of each row
-		while ($row = $result->fetch_assoc()) {
-			if ($row['Email']==$_POST['Email']) {
-				if ($row['password']==$_POST['password']) {
-					include('../blog.php');
-				}
-			}
+		while ($row =$result->num_rows >0) {
+			echo $_POST['Email'];
 		}
 		} else {
     	echo "0 result";
 		
 	}
 mysqli_close($conn);
-?>
+?>	
