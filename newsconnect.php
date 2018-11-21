@@ -10,7 +10,7 @@
 	if ($conn->connect_error) 
 	{
     	die("Connection failed: " . $conn->connect_error);
-	}  $sql = "INSERT INTO spblog (comment) VALUES ('".$_POST['message']."')";
+	}  $sql = "INSERT INTO newsblog (comment) VALUES ('".$_POST['message']."')";
 	
 		if ($conn->query($sql) === TRUE) 
 		{
@@ -22,3 +22,5 @@
 		} else {
     	echo "Error: " . $sql . "<br>" . $conn->error;
 		}
+		$conn->close();
+?>
