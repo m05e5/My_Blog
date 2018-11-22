@@ -15,9 +15,10 @@
 
 	$sql = "SELECT commennt FROM spblog";
 	$result = $conn->query($sql);
-if ($result->num_rows >0){
+
+	if ($result->num_rows >0){
 		//output data of each row
-		while ($row =$result->num_rows >0) {
+		while ($row = $result->fetch_assoc()) {
 			echo $_POST['message'];
 		}
 		} else {
