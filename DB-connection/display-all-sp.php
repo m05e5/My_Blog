@@ -13,7 +13,7 @@
     	die("Connection failed: " . $conn->connect_error);
 	}  
 
-	$sql = "SELECT commennt FROM spblog";
+	$sql = "SELECT comment FROM spblog";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows >0){
