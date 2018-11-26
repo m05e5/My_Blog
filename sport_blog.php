@@ -14,12 +14,12 @@
 </head>
 <body>
 	<p>here you can write all the news you like about sport</p>
+	<form method="post" action="DB-connection/display-all-sp.php">
 	<form method="post" action="spconnect.php">
 <textarea name="message" rows="20" cols="50"> Votre message ici.
   </textarea></br>
   <input type="submit" value="save" />
 </form>
-<form method="post" action="DB-connection/display-all-sp.php">
 	<input type="submit" value="watch my blog" />
 </form>
 </body>
