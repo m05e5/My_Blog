@@ -18,5 +18,8 @@
 <textarea name="message" rows="20" cols="50"> Votre message ici.</textarea>
 <input type="submit" value="send" />
 </form>
+<form method="post" action="DB-connection/display-all-sp.php">
+	<input type="submit" value="watch my blog" />
+</form>
 </body>
 </html>

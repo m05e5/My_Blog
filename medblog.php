@@ -19,6 +19,9 @@
   	</textarea>
   <input type="submit" value="save" />
 </form>
+<form method="post" action="DB-connection/display-all-sp.php">
+	<input type="submit" value="watch my blog" />
+</form>
   
 </body>
 </html>
