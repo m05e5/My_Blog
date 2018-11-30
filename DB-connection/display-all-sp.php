@@ -19,7 +19,7 @@
 	if ($result->num_rows >0){
 		//output data of each row
 		while ($row = $result->fetch_assoc()) {
-			echo $_POST['message'];
+			echo $resultl;
 		}
 		} else {
     	echo "0 result";
