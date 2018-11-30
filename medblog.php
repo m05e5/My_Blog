@@ -17,6 +17,7 @@
 <form method="post" action="medconnect.php">
 	<textarea name="message" rows="20" cols="50"> Votre message ici.
   	</textarea>
+  </br>
   <input type="submit" value="save" />
 </form>
 <form method="post" action="DB-connection/display-all-sp.php">
