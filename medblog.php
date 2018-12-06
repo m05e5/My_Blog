@@ -20,9 +20,7 @@
   </br>
   <input type="submit" value="save" />
 </form>
-<form method="post" action="DB-connection/display-all-sp.php">
-	<input type="submit" value="watch my blog" />
-</form>
+	<a type="submit" value="watch my blog" href=""DB-connection/display-all-sp.php"" />
   
 </body>
 </html>
