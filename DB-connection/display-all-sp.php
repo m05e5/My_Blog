@@ -18,8 +18,10 @@
 
 	if ($result->num_rows >0){
 		//output data of each row
-		while ($row = $result->fetch_assoc()) {
-			echo $resultl;
+		$rows = $result->fetch_assoc();
+
+		foreach ($result as $row) {
+			echo $row; ?><br><?php
 		}
 		} else {
     	echo "0 result";
