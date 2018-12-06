@@ -21,7 +21,8 @@
 		$rows = $result->fetch_assoc();
 
 		foreach ($result as $row) {
-			echo $row; ?><br><?php
+			echo $row; ?><br>
+			<?php
 		}
 		} else {
     	echo "0 result";
