@@ -13,10 +13,12 @@
 		</nav></br></br>
 </head>
 <body>
-	<p>here you can write all the news you like about medecine</p>
+	<p>Here you can write all the different various types of blog you like</p>
 <form method="post" action="medconnect.php">
 	<textarea name="message" rows="20" cols="50"> Votre message ici.
   	</textarea>
   </br>
   <input type="submit" value="save" />
 </form>
+</body>
+</html>
