@@ -65,14 +65,14 @@ div.desc {
   <a target="_blank" href="medblog.php">
     <img src="med.jpg" alt="Forest" width="300" height="200">
   </a>
-  <div class="desc">Here you can create a Medecinal blog</div>
+  <div class="desc">Here you can create a Medecinal blog. on this blog you can write all what you like aboute drugs, medecins, hospitals ...</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="newsblog.php">
     <img src="news.jpg" alt="Northern Lights" width="300" height="200">
   </a>
-  <div class="desc">Here you can create a news blog</div>
+  <div class="desc">Here you can create a news blog.  on this blog you can write all what you like aboute the news in your locality(school, city, quater, country, ...</div>
 </div>
 
 <div class="gallery">
