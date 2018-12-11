@@ -34,6 +34,9 @@
 		                        
   					<center><input type="submit" value="send" /></center>
   				</form>
+  					<form method="post" action="sign-up.php">  
+  						 <center><input type="submit" value="sign up" /></center>
+  					</form>
   			</section>
 		</p>
 </body>
