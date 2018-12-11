@@ -76,7 +76,7 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="defaultblog.jpg">
+  <a target="_blank" href="defaultblog.php">
     <img src="mo.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">Here you can create a sport blog.  on this blog you can write all what you like</div>
