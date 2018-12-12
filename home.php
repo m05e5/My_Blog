@@ -53,7 +53,7 @@ div.desc {
 </style>
 </head>
 <body>
-
+<div>
 <div class="gallery">
   <a target="_blank" href="log-in.php">
     <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
@@ -81,6 +81,6 @@ div.desc {
   </a>
   <div class="desc">Here you can create a sport blog.  on this blog you can write all what you like</div>
 </div>
-	
+	</div>
 </body>
 </html>

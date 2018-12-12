@@ -14,6 +14,12 @@
 
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
+		<form method="post" action="log-in.php">  
+  						 <right><input type="submit" value="log in" /></right>
+  		</form>
+  		<form method="post" action="sign-up.php">  
+  						 <right><input type="submit" value="sign up" /></right>
+  		</form>
 	</head>
 	<body>
 		<center><h1><b>Welcom to my super blog</b></h1></center>
@@ -34,9 +40,7 @@
 		                        
   					<center><input type="submit" value="send" /></center>
   				</form>
-  					<form method="post" action="sign-up.php">  
-  						 <center><input type="submit" value="sign up" /></center>
-  					</form>
+  					
   			</section>
 		</p>
 </body>
