@@ -53,7 +53,8 @@ div.desc {
 div.bor {
     margin: 5px;
     border: 1px solid #ccc;
-    width: 399px;
+    float: left;
+    width: 299px;
     background-color:rgb(0, 255, 55); 
 </style>
 </head>
@@ -61,28 +62,28 @@ div.bor {
 <div class="bor">
 <div class="gallery">
   <a target="_blank" href="log-in.php">
-    <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
+    <img src="sp.jpg" alt="Cinque Terre" width="250" height="200">
   </a>
   <div class="desc">Here you can create a sport blog. on this blog you can write all what you like aboute sport</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="log-in.php">
-    <img src="med.jpg" alt="Forest" width="300" height="200">
+    <img src="med.jpg" alt="Forest" width="250" height="200">
   </a>
   <div class="desc">Here you can create a Medecinal blog. on this blog you can write all what you like aboute drugs, medecins, hospitals ...</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="log-in.php">
-    <img src="news.jpg" alt="Northern Lights" width="300" height="200">
+    <img src="news.jpg" alt="Northern Lights" width="250" height="200">
   </a>
   <div class="desc">Here you can create a news blog.  on this blog you can write all what you like aboute the news in your locality(school, city, quater, country, ...</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="log-in.php">
-    <img src="mo.jpg" alt="Mountains" width="300" height="200">
+    <img src="mo.jpg" alt="Mountains" width="250" height="200">
   </a>
   <div class="desc">Here you can create a sport blog.  on this blog you can write all what you like</div>
 </div>
