@@ -32,7 +32,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 299px;
-    background-color:rgb(0, 255, 12); 
+    background-color:rgb(255, 255, 255); 
 }
 
 div.gallery:hover {
@@ -50,10 +50,15 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+div.bor {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 399px;
+    background-color:rgb(0, 255, 55); 
 </style>
 </head>
 <body>
-<div>
+<div class="bor">
 <div class="gallery">
   <a target="_blank" href="log-in.php">
     <img src="sp.jpg" alt="Cinque Terre" width="300" height="200">
