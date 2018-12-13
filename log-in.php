@@ -15,10 +15,10 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
 		<form method="post" action="log-in.php">  
-  						 <right><input type="submit" value="log in" /></right>
+  						 <input type="submit" value="log in" />
   		</form>
   		<form method="post" action="sign-up.php">  
-  						 <right><input type="submit" value="sign up" /></right>
+  						 <input type="submit" value="sign up" />
   		</form>
 	</head>
 	<body>
