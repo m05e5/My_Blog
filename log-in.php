@@ -8,6 +8,9 @@
 				background-size: cover;
 				
 			}
+			div.li {
+    			padding: 15px;
+    			text-align: right;
 
 		</style>
 	</div>
@@ -17,7 +20,7 @@
 		<form class="li" method="post" action="log-in.php">  
   						 <input type="submit" value="log in" />
   		</form>
-  		<form method="post" action="sign-up.php">  
+  		<form class="li" method="post" action="sign-up.php">  
   						 <input type="submit" value="sign up" />
   		</form>
 	</head>
