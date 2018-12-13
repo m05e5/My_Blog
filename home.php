@@ -52,9 +52,8 @@ div.desc {
 }
 div.bor {
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 299px;
+    border: 0.5px solid #ccc;
+    
     background-color:rgb(0, 255, 55); 
 </style>
 </head>
