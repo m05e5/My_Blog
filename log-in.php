@@ -14,7 +14,7 @@
 
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
-		<form method="post" action="log-in.php">  
+		<form class="li" method="post" action="log-in.php">  
   						 <input type="submit" value="log in" />
   		</form>
   		<form method="post" action="sign-up.php">  
