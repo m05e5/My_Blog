@@ -31,7 +31,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 299px;
+    width: 295px;
     background-color:rgb(255, 255, 255); 
 }
 
@@ -41,7 +41,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 288px;
+    width: 285px;
     height:250px;
     border-radius: 15%;
 }
