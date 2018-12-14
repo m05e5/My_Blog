@@ -8,9 +8,14 @@
 				background-size: cover;
 				
 			}
-			.li {
-    			text-align: right;
-    			border:1px solid black;		
+			 .li {
+    			text-align: right;	
+    			text-decoration: none;
+    			color: white;
+    			border: 1px solid blue;
+    			background: blue;
+    			font-weight: bold;	
+    			padding: 2px;	
     		}
 
 
@@ -19,12 +24,8 @@
 
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
-		<a href="log-in.php">  
-  						 <input type="submit" value="log in" />
-  		</a>
-  		<a href="sign-up.php">  
-  						 <input type="submit" value="sign up" />
-  		</a>
+		<a class='li' href="log-in.php">Log In</a>
+		<a class='li' href="sign-up.php">Sign In</a>
 	</head>
 	<body>
 		<center><h1><b>Welcom to my super blog</b></h1></center>
