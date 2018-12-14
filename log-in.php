@@ -8,21 +8,23 @@
 				background-size: cover;
 				
 			}
-			div.li {
-    			padding: 15px;
+			.li {
     			text-align: right;
+    			border:1px solid black;		
+    		}
+
 
 		</style>
 	</div>
 
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
-		<form class="li" method="post" action="log-in.php">  
+		<a href="log-in.php">  
   						 <input type="submit" value="log in" />
-  		</form>
-  		<form class="li" method="post" action="sign-up.php">  
+  		</a>
+  		<a href="sign-up.php">  
   						 <input type="submit" value="sign up" />
-  		</form>
+  		</a>
 	</head>
 	<body>
 		<center><h1><b>Welcom to my super blog</b></h1></center>
