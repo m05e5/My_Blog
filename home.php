@@ -1,13 +1,15 @@
 <!DOCTYPE html>  
 <html>
 <head>
-	<div class="background-image"><style>
+	<div class="background-image">
+    <style>
 			body 
-			{
-				background-color:rgb(255, 255, 255);
-				background-size: cover;
-      }
-				.li {
+        {
+          background-color:rgb(255, 255, 255);
+				  background-size: cover;
+        }
+			.li 
+        {
           text-align: right;  
           text-decoration: none;
           color: white;
@@ -17,23 +19,6 @@
           padding: 2px; 
         }
 			
-		</style>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<title>Super_Blog</title>
-    <a class='li' href="log-in.php">Log In</a>
-    <a class='li' href="sign-up.php">Sign In</a>
-</head>
-<body>
-
-<center><h1><b style="color:rgb(0, 0, 0) ">Welcom to my super blog</b></h1></center>
-<nav>   
-			 <ul>
-		     	<li><a style="color: white;" href="home.php" >Home</a></li>
-		     	<li><a href="sign-up.php">sign_up</a></li>
-		    	 <li><a href="log-in.php">log_in</a></li>    
-			 </ul>
-		</nav></br></br>
-<style>
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -62,7 +47,26 @@ div.bor {
     border: 1px solid #ccc;
     float: left;
     background-color:rgb(0, 255, 55); 
-</style>
+
+		</style>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>
+      Super_Blog
+    </title>
+    <a class='li' href="log-in.php">Log In</a>
+    <a class='li' href="sign-up.php">Sign In</a>
+</head>
+<body>
+
+<center><h1><b style="color:rgb(0, 0, 0) ">Welcom to my super blog</b></h1></center>
+<nav>   
+			 <ul>
+		     	<li><a style="color: white;" href="home.php" >Home</a></li>
+		     	<li><a href="sign-up.php">sign_up</a></li>
+		    	 <li><a href="log-in.php">log_in</a></li>    
+			 </ul>
+		</nav></br></br>
+
 </head>
 <body>
 <div class="bor">
