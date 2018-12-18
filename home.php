@@ -11,7 +11,8 @@
 		</style>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Super_Blog</title>
-
+    <a class='li' href="log-in.php">Log In</a>
+    <a class='li' href="sign-up.php">Sign In</a>
 </head>
 <body>
 
