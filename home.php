@@ -6,8 +6,17 @@
 			{
 				background-color:rgb(255, 255, 255);
 				background-size: cover;
-				
-			}
+      }
+				.li {
+          text-align: right;  
+          text-decoration: none;
+          color: white;
+          border: 1px solid blue;
+          background: blue;
+          font-weight: bold;  
+          padding: 2px; 
+        }
+			
 		</style>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Super_Blog</title>
