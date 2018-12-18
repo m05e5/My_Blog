@@ -19,26 +19,23 @@ nav li
     margin-right: 15px;
   }
 nav a
-             {
-                font-size: 1.3em;    
-                color:black;   
-                padding-bottom: 3px;  
-                text-decoration: none;
-        } 
-body{
-  background: blur(18px);
-}
-
-
-
-
-
-img {
-  border: 1px solid #ddd;
-          border-radius: 4px;
-          padding:5px;
-          width:500px;
-          height:500px 
-          opacity: 0.5;
-          filter: alpha(opacity=05);
-}
+  {
+    font-size: 1.3em;    
+    color:black;   
+    padding-bottom: 3px;  
+    text-decoration: none;
+  } 
+body
+  {
+    background: blur(18px);
+  }
+img 
+  {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding:5px;
+    width:500px;
+    height:500px 
+    opacity: 0.5;
+    filter: alpha(opacity=05);
+  }
