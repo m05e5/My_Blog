@@ -2,12 +2,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
+<style type="text/css">
+	 .li {
+    			text-align: right;	
+    			text-decoration: none;
+    			color: white;
+    			border: 1px solid blue;
+    			background: blue;
+    			font-weight: bold;	
+    			padding: 2px;	
+    		}
+	
+</style>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<title>Super_Blog</title>
 	</head>
 	<body>
-
+<a class='li' href="log-in.php">Log In</a>
+		<a class='li' href="sign-up.php">Sign In</a>
 		<center>
 			<h1>
 				<b>Welcom to my super blog</b>

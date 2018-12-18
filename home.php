@@ -8,9 +8,6 @@
 				background-size: cover;
 				
 			}
-			
-			
-
 		</style>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Super_Blog</title>
