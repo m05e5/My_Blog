@@ -63,14 +63,19 @@
 			</center>
 			<section>	                    
 		        <form method="POST" action="DB-connection/collect.php">
-		             <center><input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="10" /></br></br></center>
-		             <center><input type="password" name="password" id="password" placeholder="password" size="70" maxlength="10" /></br></br>
+		             <center>
+		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="10" /></br></br>
+		             </center>
+		             <center>
+		             	<input type="password" name="password" id="password" placeholder="password" size="70" maxlength="10" /></br></br>
 		            </center>
 		                        
-  					<center><input type="submit" value="send" /></center>
+  					<center>
+  						<input type="submit" value="send" />
+  					</center>
   				</form>
   					
   			</section>
 		</p>
 </body>
-</html>s
+</html>
