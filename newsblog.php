@@ -13,7 +13,7 @@
 			</h1>
 		</center>
 		<nav>   
-			 <ul>
+			<ul>
 		     	<li>
 		     		<a href="home.php" >
 		     			Home
@@ -24,20 +24,26 @@
 		     			sign_up
 		     		</a>
 		     	</li>
-		    	 <li><a href="log-in.php">log_in</a></li>    
-			 </ul>
+		    	<li>
+		    	 	<a href="log-in.php">
+		    	 		log_in
+		    	 	</a>
+		    	</li>    
+			</ul>
 		</nav></br></br>
 </head>
 <body>
 	<p>here you can write all the news you like</p>
 	<form method="post" action="newsconnect.php">
-<textarea name="message" rows="20" cols="50"> Votre message ici.</textarea>
-<input type="submit" value="send" />
-</br>
-</form>
+		<textarea name="message" rows="20" cols="50">
+			Votre message ici.
+		</textarea>
+		<input type="submit" value="send" />
+		</br>
+	</form>
 
-<form method="post" action="DB-connection/display-all-sp.php">
-	<input type="submit" value="watch my blog" />
-</form>
+	<form method="post" action="DB-connection/display-all-sp.php">
+		<input type="submit" value="watch my blog" />
+	</form>
 </body>
 </html>
