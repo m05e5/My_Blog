@@ -40,6 +40,10 @@
           height:250px;
           border-radius: 15%;
         }
+        div.gallery
+        {
+          border-radius: 15%
+        }
 
       div.desc 
         {

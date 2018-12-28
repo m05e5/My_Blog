@@ -21,12 +21,8 @@
 		</title>
 	</head>
 	<body>
-		<a class='li' href="log-in.php">
-			Log In
-		</a>
-		<a class='li' href="sign-up.php">
-			Sign In
-		</a>
+		<a class='li' href="log-in.php">Log In</a>
+		<a class='li' href="sign-up.php">Sign In</a>
 		<center>
 			<h1>
 				<b>Welcom to my super blog</b>
