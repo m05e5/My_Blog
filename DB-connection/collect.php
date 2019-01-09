@@ -25,7 +25,8 @@
 			if ($row['Email']==$_POST['Email']) {
 				if ($row['password']==$_POST['password']) {
 
-					$req = $conn->query("SELECT id FROM  users WHERE Email= ".$row['Email']);
+					$req = $conn->prepare('SELECT id FROM  users WHERE (Email) = (?)');
+					$res = $req->exec($row['Email']);
 					echo $req;
 					//include('../medblog.php');
 				}
