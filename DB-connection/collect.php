@@ -1,4 +1,7 @@
 <?php
+	session_start();
+
+
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -21,7 +24,10 @@
 		while ($row = $result->fetch_assoc()) {
 			if ($row['Email']==$_POST['Email']) {
 				if ($row['password']==$_POST['password']) {
-					include('../blog.php');
+
+					$req = $conn->query("SELECT id FROM  users WHERE Email= ".$row['Email']);
+					echo $req;
+					//include('../medblog.php');
 				}
 			}
 		}

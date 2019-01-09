@@ -13,7 +13,7 @@
     	die("Connection failed: " . $conn->connect_error);
 	}  
 
-	$sql = "SELECT ID FROM users";
+	$sql = "SELECT ID, Email, password FROM users";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows >0){
