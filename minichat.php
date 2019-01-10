@@ -10,7 +10,7 @@
             text-align:center;    
   			}    
   </style>    
-  <body>
+<body>
   	 <form action="minichat_post.php" method="post">
         <p>        
         	<label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" /><br />
@@ -35,4 +35,8 @@
  		 {    
  		 	die('Erreur : '.$e->getMessage()); 
  		 }
+ 		 ?>
+ </body> 
+ </html>
+
 
