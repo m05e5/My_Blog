@@ -1,5 +1,4 @@
 <?php
-	session_start();
 
 
 	$servername = "localhost";
@@ -25,9 +24,12 @@
 			if ($row['Email']==$_POST['Email']) {
 				if ($row['password']==$_POST['password']) {
 
-					$req = $conn->prepare('SELECT id FROM  users WHERE (Email) = (?)');
-					$res = $req->exec($row['Email']);
-					echo $req;
+					$req = $conn->prepare('SELECT id FROM  users WHERE Email = ?');
+					$res = $req->execute(array($row['Email']));
+					echo $row['Email'];
+
+	
+					
 					//include('../medblog.php');
 				}
 			}
