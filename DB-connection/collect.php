@@ -1,5 +1,5 @@
 <?php
-
+	session_start();
 
 	$servername = "localhost";
 	$username = "root";
@@ -34,17 +34,19 @@
 			if ($row['Email']==$_POST['Email']) {
 				if ($row['password']==$_POST['password']) {
 
-					$req = $conn->prepare('SELECT id FROM  users WHERE Email = ?');
+					$req = $conn->prepare('SELECT id, Email, User_name FROM  users WHERE Email = ?');
 					$req->execute(array($row['Email']));
-					$idUser = $req->fetch();
+					$donnees = $req->fetch();	
 
-					echo $idUser['id'];
+					//echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
+
+					$_SESSION['id'] = $donnees['id'];
+					$_SESSION['User_name'] = $donnees['User_name'];
+					$_SESSION['Email'] = $donnees['Email'];
 
 					
-
-	
-					
-					//include('../medblog.php');
+					header('hw_GetAndLock(connection, objectID)ocation : ../medblog.php');
+					exit();
 				}
 			}
 		}
