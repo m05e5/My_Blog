@@ -11,4 +11,7 @@ try
  	    header('Location: minichat.php');
  	    } 
  	    catch(Exception $e) 
- 	    {  
+ 	    {    
+ 	    	die
+ 	    	('Erreur : '.$e->getMessage()); } ?>
+ 	    	{  
