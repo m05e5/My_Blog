@@ -60,9 +60,23 @@ body{
 /*-------------------------------*\
 	$Loader Double cercle
 \*-------------------------------*/	
-.loader-quart{
+.loader-double{
 	border-radius: 50px;
-	border: 6px solid rgba(255, 255, 255, 0.4);
+	border: 6px solid transparent;
+	border-top-color:#FFF ;
+	border-bottom-color:#FFF ;
+}
+.loader-quart:after{
+	content : '';
+	position: absolute;
+	top: -6px;
+	bottom: -6px;
+	right: -6px;
+	left: -6px;
+	border-radius: 50px;
+	/*border: 6px solid transparent;*/
+	border-top: 6px solid #FFF;
+	animation: spin 1s linear infinite;
 }
 
 @keyframes spin{
