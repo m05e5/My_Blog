@@ -12,6 +12,9 @@ body{
 	height: 500px;
 	line-height: 500px;
 }
+.section-2{
+	background-color: #2980b9
+}
 
 .loader{
 	width: 50px;
