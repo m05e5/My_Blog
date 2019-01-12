@@ -57,6 +57,14 @@ body{
 }*/
 
 
+/*-------------------------------*\
+	$Loader Double cercle
+\*-------------------------------*/	
+.loader-quart{
+	border-radius: 50px;
+	border: 6px solid rgba(255, 255, 255, 0.4);
+}
+
 @keyframes spin{
 	0%{ transform: rotate(0deg); }
 	100%{ transform: rotate(360deg); }
