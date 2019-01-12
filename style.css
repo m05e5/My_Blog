@@ -65,6 +65,7 @@ body{
 	border: 6px solid transparent;
 	border-top-color:#FFF ;
 	border-bottom-color:#FFF ;
+	animation: spin 1s linear infinite;
 }
 .loader-double:after{
 	content : '';
@@ -77,10 +78,29 @@ body{
 	border: 6px solid transparent;
 	border-top-color:#FFF ;
 	border-bottom-color:#FFF ;
-	animation: spin 1s linear infinite;
+	opacity: 0.6;
+	animation: spinrevers 2s linear infinite;
+}
+.loader-double:before{
+	content : '';
+	position: absolute;
+	top: 10;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color:#FFF ;
+	border-bottom-color:#FFF ;
+	opacity: 0.6;
+	animation: spinreverse 5s linear infinite;
 }
 
 @keyframes spin{
 	0%{ transform: rotate(0deg); }
 	100%{ transform: rotate(360deg); }
+}
+@keyframes spinreverse{
+	0%{ transform: rotate(0deg); }
+	100%{ transform: rotate(-360deg); }
 }
