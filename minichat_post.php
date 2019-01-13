@@ -13,5 +13,6 @@ try
  	    catch(Exception $e) 
  	    {    
  	    	die
- 	    	('Erreur : '.$e->getMessage()); } ?>
- 	    	{  
+ 	    	('Erreur : '.$e->getMessage()); }   
+
+ 	    		?>

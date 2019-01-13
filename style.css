@@ -79,12 +79,12 @@ body{
 	border-top-color:#FFF ;
 	border-bottom-color:#FFF ;
 	opacity: 0.6;
-	animation: spinrevers 2s linear infinite;
+	animation: spinrevers 1s linear infinite;
 }
 .loader-double:before{
 	content : '';
 	position: absolute;
-	top: 15;
+	top: 15px;
 	bottom: 15px;
 	right: 15px;
 	left: 15px;
