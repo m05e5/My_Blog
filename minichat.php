@@ -22,7 +22,7 @@
       try
        	{    
        	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
-       	$bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '', $pdo_options); 
+       	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
  		$reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY ID DESC LIMIT 0, 10'); 
  		 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) 
  		 while ($donnees = $reponse->fetch())
