@@ -21,6 +21,12 @@
   <input type="submit" value="save" />
 </form>
 	<a type="submit" value="watch my blog" href=""DB-connection/display-all-sp.php"" />
-  
+	 <?php
+      try
+       	{    
+       	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
+       	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
+ 		$reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY ID DESC LIMIT 0, 10'); 
+ 		?>
 </body>
 </html>
