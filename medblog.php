@@ -15,10 +15,8 @@
 <body>
 	<p>Here you can write all the news you like about medecine</p>
 <form method="post" action="medconnect.php">
-	<textarea name="message" rows="20" cols="50"> Votre message ici.
-  	</textarea>
-  </br>
-  <input type="submit" value="save" />
+		<textarea name="message" id="message" rows="20" cols="50"> Votre message ici.</textarea></br>
+  		<input type="submit" value="save" />
 </form>
 	<a type="submit" value="watch my blog" href=""DB-connection/display-all-sp.php"" />
 	 <?php

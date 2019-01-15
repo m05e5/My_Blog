@@ -1,29 +1,18 @@
-<?php
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$DBname="my_blog";
+<?php 
+// Connexion à la base de données 
+try 
+{
+	 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+	 $bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
+	 // Insertion du message à l'aide d'une requête préparée
+	 $req = $bdd->prepare('INSERT INTO medblog (message) VALUES( ?)'); 
+ 	 $req->execute(array($_POST['message']));
+ 	  // Redirection du visiteur vers la page du minichat
+ 	    header('Location: medblog.php');
+ 	    } 
+ 	    catch(Exception $e) 
+ 	    {    
+ 	    	die
+ 	    	('Erreur : '.$e->getMessage()); }   
 
-// Create connection
-	$conn =new mysqli($servername, $username, $password, $DBname);
-
-	// Check connection
-	if ($conn->connect_error) 
-	{
-    	die("Connection failed: " . $conn->connect_error);
-	}  
-	
-		$sql = "INSERT INTO medblog (comment) VALUES ('".$_POST['message']."')";
-	
-		if ($conn->query($sql) === TRUE) 
-		{
-    		echo $_POST['message'];
-    		 ?>
-    		<form method="post" action="medblog.php">
-    		</br><input type="submit" value="Back to my blog" />
-			</form>	<?php
-		} else {
-    	echo "Error: " . $sql . "<br>" . $conn->error;
-		}
-$conn->close();
-?>
+ 	    		?>
