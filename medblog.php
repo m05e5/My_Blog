@@ -28,7 +28,7 @@
  		 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) 
  		 while ($donnees = $reponse->fetch())
  		 	 {        
- 		 	 	echo '<p><strong>' . htmlspecialchars($donnees['comment']) . '</strong> : </p>';    
+ 		 	 	echo '<p><strong>' . htmlspecialchars($donnees['comment']) . '</strong></p>';    
  		 	 }
  		 	  $reponse->closeCursor();
  		 } 
