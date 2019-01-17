@@ -1,6 +1,4 @@
 <?php
-	session_start();
-
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -40,12 +38,7 @@
 
 					//echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
 
-					$_SESSION['id'] = $donnees['id'];
-					$_SESSION['User_name'] = $donnees['User_name'];
-					$_SESSION['Email'] = $donnees['Email'];
-
-					
-					header('hw_GetAndLock(connection, objectID)ocation : ../medblog.php');
+					include('../medblog.php');
 					exit();
 				}
 			}
