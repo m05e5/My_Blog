@@ -5,22 +5,14 @@
 	$DBname = "my_blog";
 
 // Create connection
-//conn =new mysqli($servername, $username, $password, $DBname);
-
-
-
-	try
+	$conn =new mysqli($servername, $username, $password, $DBname);
+try
 	{
 		$conn = new PDO('mysql:host=localhost;dbname=my_blog;charset=utf8', 'root', '');
 	}catch(Exeption $e)
 	{
 		die($e->getMessage());
 	}
-
-
-
-
-
 	// Check connection
 
 
