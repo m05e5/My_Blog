@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+try
+       	{    
+       	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
+       	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,7 +32,7 @@ session_start();
        	{    
        	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
        	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
- 		$reponse = $bdd->query('SELECT comment FROM medblog ORDER BY ID DESC LIMIT 0, 10'); 
+ 		$reponse = $bdd->query('SELECT comment FROM medblog ORDER BY ID DESC '); 
  		 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) 
  		 while ($donnees = $reponse->fetch())
  		 	 {        
