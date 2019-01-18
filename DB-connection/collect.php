@@ -1,12 +1,9 @@
 <?php
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$DBname = "my_blog";
-
-// Create connection
-	$conn =new mysqli($servername, $username, $password, $DBname);
-try
+session_start(); 
+try 
+{
+	 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+	 $bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
 	{
 		$conn = new PDO('mysql:host=localhost;dbname=my_blog;charset=utf8', 'root', '');
 	}catch(Exeption $e)
