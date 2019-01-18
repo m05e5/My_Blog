@@ -32,7 +32,7 @@ try
        	{    
        	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
        	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
- 		$reponse = $bdd->query('SELECT comment FROM medblog ORDER BY ID DESC '); 
+ 		$reponse = $bdd->query('SELECT comment FROM medblog ORDER BY ID '); 
  		 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars) 
  		 while ($donnees = $reponse->fetch())
  		 	 {        
