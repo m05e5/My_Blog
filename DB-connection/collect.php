@@ -25,7 +25,7 @@ try
 					$req->execute(array($row['Email']));
 					$donnees = $req->fetch();	
 
-					//echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
+					echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
 
 					include('../medblog.php');
 					exit();
