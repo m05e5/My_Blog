@@ -1,5 +1,8 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
-<html>
+<html>	
 	<head>
 		<div class="background-image">
 			<style>
@@ -77,5 +80,8 @@
   					
   			</section>
 		</p>
+		<?php
+		$_SESSION['name'] = $_POST['Email'];
+		?>
 </body>
 </html>
