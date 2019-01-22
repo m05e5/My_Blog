@@ -1,13 +1,13 @@
 <?php
 session_start();
 	
-	$_SESSION['prenom'] = $_POST['name'];
+
  
-/*try
+try
        	{    
        	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
        	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
-*/
+
 ?>
 <!DOCTYPE html>
 <html>

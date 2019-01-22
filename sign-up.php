@@ -1,4 +1,6 @@
+<?php
 
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -61,10 +63,10 @@
 		            	<input  type="password" name="check_password" id="check_password"  placeholder="confirm password" size="125" maxlength="10" /></br></br>
 		            </center>
 		            <center>
-		            	<input type="Email" name="Email" id="Email" placeholder="adress Email" size="125" maxlength="10" /></br></br>
+		            	<input type="Email" name="Email" id="Email" placeholder="adress Email" size="125" maxlength="30" /></br></br>
 		            </center>
 		            <center>
-		            	<input type="submit" value="send" />
+		            	<input type="submit" value="send" name="sending"/>
 		            </center>
   				</form>
 	

@@ -1,5 +1,5 @@
 <?php
-session_start(); 
+
 try 
 {
 	 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
