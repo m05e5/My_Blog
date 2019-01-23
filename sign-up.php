@@ -1,5 +1,10 @@
 <?php
 
+
+try{
+	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+	$PDO =new pdo('mysql:host=localhost;dbname=My_Blog', 'root', '', $pdo_options);
+}
 ?>
 <!DOCTYPE html>
 <html>
