@@ -1,5 +1,8 @@
 <?php
 session_start();
+?>
+<!DOCTYPE.html>
+<?php
 $servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -11,7 +14,7 @@ try{
 	}
 
 ?>
-<!DOCTYPE html>
+
 <html>
 	<head>
 		<style type="text/css">
