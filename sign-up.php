@@ -1,11 +1,15 @@
 <?php
 session_start();
+$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbName="my_blog";
 
 try{
 	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-	$PDO =new pdo('mysql:host=localhost;dbname=My_Blog', 'root', '', $pdo_options);
-}
-$_SESSION['name']=$_POST['Name'];
+	$bdd =new PDO('mysql:host=localhost;dbname=My_Blog', 'root', '', $pdo_options);
+	}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -79,7 +83,9 @@ $_SESSION['name']=$_POST['Name'];
 
 		</p>
 
-
+<?php
+$_SESSION['name']=$_POST['Name'];
+?>
 
 	</body>
 </html>	

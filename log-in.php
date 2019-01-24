@@ -83,8 +83,6 @@ session_start();
   					
   			</section>
 		</p>
-		<?php
-		$_SESSION['name'] = $_POST['Email'];
-		?>
+		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['name']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['name']; ?> ans, c'est ça ? :-D    </p> 
 </body>
 </html>
