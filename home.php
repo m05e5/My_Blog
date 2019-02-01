@@ -69,9 +69,7 @@
 
   <center> 
     <h1>
-      <b style="color:rgb(0, 0, 0) ">
-        Welcom to my super blog
-      </b>
+      <marquee bgcolor="orange" scrollamount="500">please you need to eat</marquee>
     </h1>
   </center>
   <nav>   

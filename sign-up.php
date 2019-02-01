@@ -1,20 +1,19 @@
 <?php
 session_start();
-?>
-<!DOCTYPE.html>
-<?php
-$servername = "localhost";
+	$servername = "localhost";
 	$username = "root";
 	$password = "";
 	$dbName="my_blog";
 
+?>
+<!DOCTYPE.html>
+<?php
+	
 try{
 	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 	$bdd =new PDO('mysql:host=localhost;dbname=My_Blog', 'root', '', $pdo_options);
 	}
-
 ?>
-
 <html>
 	<head>
 		<style type="text/css">
