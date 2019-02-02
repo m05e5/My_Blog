@@ -40,7 +40,9 @@ session_start();
 		<center>	
 			<h1>
 				<b>
-					Welcom to my super blog
+					<marquee bgcolor="	" scrollamount="5">
+						Welcom to my super blog
+					</marquee>
 				</b>
 			</h1>
 		</center>
@@ -70,10 +72,10 @@ session_start();
 			<section>	                    
 		        <form method="POST" action="DB-connection/collect.php">
 		             <center>
-		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="10" /></br></br>
+		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="50" /></br></br>
 		             </center>
 		             <center>
-		             	<input type="password" name="password" id="password" placeholder="password" size="70" maxlength="10" /></br></br>
+		             	<input type="password" name="password" id="password" placeholder="password" size="70" maxlength="15" /></br></br>
 		            </center>
 		                        
   					<center>
