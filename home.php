@@ -69,7 +69,7 @@
 
   <center> 
     <h1>
-      <marquee bgcolor="orange" scrollamount="500">please you need to eat</marquee>
+      <marquee bgcolor="orange" scrollamount="10">welcome to my super blog </marquee>
     </h1>
   </center>
   <nav>   
@@ -97,7 +97,9 @@
   <div class="bor">
     <div class="gallery">
       <a target="_blank" href="log-in.php">
+        <marquee bgcolor="orange" scrollamount="10">
         <img src="sp.jpg" alt="Cinque Terre" width="250" height="200">
+      </marquee>
       </a>
       <div class="desc">
         Here you can create a sport blog. on this blog you can write all what you like aboute sport
@@ -106,7 +108,9 @@
 
     <div class="gallery">
       <a target="_blank" href="log-in.php">
-        <img src="med.jpg" alt="Forest" width="250" height="200">
+        <marquee bgcolor="orange" scrollamount="10">
+          <img src="med.jpg" alt="Forest" width="250" height="200">
+        </marquee>
       </a>
       <div class="desc">
         Here you can create a Medecinal blog. on this blog you can write all what you like aboute drugs, medecins, hospitals ...
