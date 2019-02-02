@@ -69,7 +69,7 @@
 
   <center> 
     <h1>
-      <marquee bgcolor="orange" scrollamount="10">welcome to my super blog </marquee>
+      <marquee bgcolor="white" scrollamount="15">welcome to my super blog </marquee>
     </h1>
   </center>
   <nav>   
@@ -95,7 +95,6 @@
 </head>
 <body>
   <div class="bor">
-    <marquee bgcolor="black" scrollamount="10">
     <div class="gallery">
       <a target="_blank" href="log-in.php">
         <img src="sp.jpg" alt="Cinque Terre" width="250" height="200">
@@ -131,7 +130,6 @@
         Here you can create a sport blog.  on this blog you can write all what you like
       </div>
     </div>
-  </marquee>
 	</div>
 </body>
 </html>

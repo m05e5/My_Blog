@@ -3,7 +3,8 @@ h1{
   }
 
 nav
-  { 
+  {
+    opacity: 1; 
     background-color:rgb(0, 255, 12);
     display: inline-block;
     width: 1270px;
@@ -20,11 +21,15 @@ nav li
   }
 nav a
   {
+
     font-size: 1.3em;    
     color:black;   
     padding-bottom: 3px;  
     text-decoration: none;
   } 
+  nav a:hover{
+    opacity: 0.5;
+  }
 body
   {
     background: blur(18px);
