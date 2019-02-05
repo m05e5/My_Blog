@@ -4,12 +4,12 @@ try
 {
 	 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 	 $bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
-	{
+	/*{
 		$conn = new PDO('mysql:host=localhost;dbname=my_blog;charset=utf8', 'root', '');
 	}catch(Exeption $e)
 	{
 		die($e->getMessage());
-	}
+	}*/
 	// Check connection
 
 
@@ -28,9 +28,9 @@ try
 					echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
 
 					include('../medblog.php');
-					exit();
+								
 				}
 			}
 		}
-
+exit();
 ?>
