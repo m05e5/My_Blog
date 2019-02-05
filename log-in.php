@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-
+$_SESSION['Email']=$_POST['Email']
 
 ?>
 <!DOCTYPE html>
@@ -85,6 +85,6 @@ session_start();
   					
   			</section>
 		</p>
-		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['name']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['name']; ?> ans, c'est ça ? :-D    </p> 
+		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> ans, c'est ça ? :-D    </p> 
 </body>
 </html>
