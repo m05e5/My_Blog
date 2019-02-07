@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -6,7 +7,10 @@
 
 // Create connection
 	$conn =new mysqli($servername, $username, $password, $DBname);
-
+	// check that form has been submitted and that name is not empty
+	 if ($_POST && !empty($_POST['Name'])) { 
+	 // set session variable
+	  $_SESSION['Name'] = $_POST['Name']; } 
 	// Check connection
 	if ($conn->connect_error) 
 	{
