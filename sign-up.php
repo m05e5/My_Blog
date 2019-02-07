@@ -8,12 +8,12 @@ session_start();
 ?>
 <!DOCTYPE.html>
 <?php
-	
+	/*
 try{
 	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 	$bdd =new PDO('mysql:host=localhost;dbname=My_Blog', 'root', '', $pdo_options);
 	}
-?>
+*/?>
 <html>
 	<head>
 		<style type="text/css">
@@ -63,16 +63,16 @@ try{
 			</h1>	                    
 		       	<form method="post" action="DB-connection/connect.php">  
 		          	<center>
-		          		<input type="text" name="Name" id="Name" placeholder="Name" size="125" maxlength="10" /></br></br>
+		          		<input type="text" name="Name" id="Name" placeholder="Name" size="125" maxlength="30" /></br></br>
 		          	</center>
 		           	<center>
-		           		<input type="text" name="Favorite" id="Favorite" placeholder="Favorite" size="125" maxlength="10" /></br></br>
+		           		<input type="text" name="Favorite" id="Favorite" placeholder="Favorite" size="125" maxlength="90" /></br></br>
 		           	</center>
 		            <center>
-		            	<input  type="password" name="password" id="password"  placeholder="Password" size="125" maxlength="10" /></br></br>
+		            	<input  type="password" name="password" id="password"  placeholder="Password" size="125" maxlength="15" /></br></br>
 		            </center>
 		            <center>
-		            	<input  type="password" name="check_password" id="check_password"  placeholder="confirm password" size="125" maxlength="10" /></br></br>
+		            	<input  type="password" name="check_password" id="check_password"  placeholder="confirm password" size="125" maxlength="15" /></br></br>
 		            </center>
 		            <center>
 		            	<input type="Email" name="Email" id="Email" placeholder="adress Email" size="125" maxlength="30" /></br></br>
