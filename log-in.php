@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-$_SESSION['Email']=$_POST['Email']
-
 ?>
 <!DOCTYPE html>
 <html>	
@@ -70,7 +68,7 @@ $_SESSION['Email']=$_POST['Email']
 				</h1>
 			</center>
 			<section>	                    
-		        <form method="POST" action="DB-connection/collect.php">
+		        <form method="POST" action="log-in.php">
 		             <center>
 		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="50" /></br></br>
 		             </center>
@@ -85,6 +83,10 @@ $_SESSION['Email']=$_POST['Email']
   					
   			</section>
 		</p>
+		<?php
+		$_SESSION['Email']=$_POST['Email']
+
+		?>
 		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> ans, c'est ça ? :-D    </p> 
 </body>
 </html>

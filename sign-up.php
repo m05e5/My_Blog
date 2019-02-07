@@ -86,7 +86,7 @@ try{
 		</p>
 
 <?php
-$_SESSION['name']=$_POST['Name'];
+$_SESSION['Name']=$_POST['Name'];
 ?>
 
 	</body>

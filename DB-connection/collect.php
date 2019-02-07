@@ -27,8 +27,6 @@ try
 
 					echo $donnees['id']."<br>".$donnees['User_name']."<br>".$donnees['Email'];
 
-					include('../medblog.php');
-								
 				}
 			}
 		}
