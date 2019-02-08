@@ -3,11 +3,11 @@ session_start();
 	
 
  
-try
+/*try
        	{    
        	$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;    
        	$bdd = new PDO('mysql:host=localhost;dbname=my_blog', 'root', '', $pdo_options); 
-
+*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +22,7 @@ try
 		    	 <li><a href="log-in.php">log_in</a></li>    
 			 </ul>
 		</nav></br></br>
-		 <p>        Salut <?php echo $_SESSION['prenom']; ?> !<br /> </p>
+		 <p>        Salut <?php echo $_SESSION['Name']; ?> !<br /> </p>
 </head>
 <body>
 	<p>Here you can write all the news you like about medecine</p>
