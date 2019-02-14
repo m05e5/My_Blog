@@ -1,5 +1,2 @@
-function multiply(a, b) {
-		return (a * b);
-	}
-
-alert(multiply(3, 4));
+var list = ["tiger", "cat", "bear", "bird"];
+console.log(list)
