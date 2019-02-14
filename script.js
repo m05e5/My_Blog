@@ -1,16 +1,9 @@
-function sayhello(){
-	console.log("Hello");
-}
-sayhello();
 
-var sayBye = function() {
-	console.log("Bye");
-}
-
-sayBye();
 
 function sing(song){
-	console.log("AHHHHHHHHH");
+	console.log(song);
 }
 
-sing();
+sing("Laaaa deee daaaa");
+sing("helllllloooooooo");
+sing("helo mane i gana o and get some whoo");
