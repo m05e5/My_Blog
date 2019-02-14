@@ -1,9 +1,5 @@
+function multiply(a, b) {
+		return (a * b);
+	}
 
-
-function sing(song){
-	console.log(song);
-}
-
-sing("Laaaa deee daaaa");
-sing("helllllloooooooo");
-sing("helo mane i gana o and get some whoo");
+alert(multiply(3, 4));
