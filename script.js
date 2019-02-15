@@ -1,23 +1,21 @@
-var user = {
-	name: prompt("please enter your name"),
-	age: prompt("please enter your age"),
-	hobby: false,
-	isMarreied: false,
-	spells: ["abrakadabra", "shazam", "boo"],
-	shout: function() {
-		console.log("AHHHHHHHH!");
-	}
-};
-
-var list = [
+var database = [
 	{
-		username: "andy",
-		password: "secre"
-	},
-	{
-		username: "jess",
-		password: "123"
+		username: "andrei",
+		password: "supersecret"
 	}
 ];
 
+var newsFeed = [
+	{
+		username: "Bobby",
+		timeline: "so tired from all that learning"
+	},
+	{
+		username: "Sallly",
+		timeline: "javascript is sooooo coool!"
 
+	}
+]:
+
+var userNameprompt = prompt("what's your username");
+var passwordprompt = prompt("what's your password");
