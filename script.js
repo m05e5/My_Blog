@@ -5,7 +5,8 @@ var todos = [
 	 "study javascript",
 	 "eat healthy"
 ];
+var todosLength = todos.length;
 
-for (var i = i=0; i < todos.length; i++) {
-	
+for (var i = i=0; i < todosLength; i++) {
+	todos.pop();
 }
