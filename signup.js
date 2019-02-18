@@ -1,3 +1,7 @@
+var users = {
+	name = prompt("please enter your name");
+	pass = prompt("please enter your password");
+}
 var database = [
 	{
 		username: "Kirito",
@@ -38,16 +42,15 @@ function isUserValide(username, password){
 	return false;  	
 }
 function signIn(username, password){
-	console.log(isUserValide(username, password));
-	
-}	
-	// if (username === database[0].username &&
-	//  password === database[0].password) {
-	// 	console.log(newsfeed);
-	// }else{
-	// 	alert("sorry, wrong username and password");
 
-	// }
+
+	
+	if (isUserValide(username, password)) {
+		console.log(newsfeed);
+	}else{
+		alert("sorry, wrong username and password");
+
+	}
 
 }
 
