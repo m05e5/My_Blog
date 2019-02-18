@@ -1,7 +1,7 @@
-var users =function {
-	name = prompt("please enter your name");
-	pass = prompt("please enter your password");
-}
+	 function users () {
+		name = prompt("please enter your name");
+		pass = prompt("please enter your password");
+	}
 var database = [
 	{
 		username: "Kirito",
