@@ -28,7 +28,16 @@ var newsfeed = [
 		timeline: "javascript is preeetyy cool!"
 	}
 ];
-function isUser 
+function isUserValide(username, password){
+	for (var i = 0; i < database.length; i++) {
+		if (database [i].username === username && 
+			database[i].password === password){
+			console.log(newsfeed);
+		}else{
+			alert("sorry, wrong username and password");
+		}
+	}	
+}
 function signIn(username, password){
 for (var i = 0; i < database.length; i++) {
 	if (database [i].username === username && 
