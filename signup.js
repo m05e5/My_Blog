@@ -14,8 +14,12 @@ var newsFeed = [
 		username: "Sallly",
 		timeline: "javascript is sooooo coool!"
 
+	},
+	{
+		username: "Mitch",
+		timeline: "javascript is preeetyy cool!"
 	}
-]
+];
 
 var userNameprompt = prompt("what's your username");
 var passwordprompt = prompt("what's your password");
