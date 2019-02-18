@@ -32,20 +32,14 @@ function isUserValide(username, password){
 	for (var i = 0; i < database.length; i++) {
 		if (database [i].username === username && 
 			database[i].password === password){
-			console.log(newsfeed);
-		}else{
-			alert("sorry, wrong username and password");
+			return true; 
 		}
-	}	
+	}
+	return false;  	
 }
 function signIn(username, password){
-for (var i = 0; i < database.length; i++) {
-	if (database [i].username === username && 
-		database[i].password === password){
-		console.log(newsfeed);
-	}else{
-		alert("sorry, wrong username and password");
-	}
+	console.log(isUserValide(username, password));
+	
 }	
 	// if (username === database[0].username &&
 	//  password === database[0].password) {
