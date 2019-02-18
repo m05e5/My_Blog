@@ -1,4 +1,4 @@
-var users = {
+var users =function {
 	name = prompt("please enter your name");
 	pass = prompt("please enter your password");
 }
