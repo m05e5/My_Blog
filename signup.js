@@ -28,7 +28,7 @@ var newsfeed = [
 		timeline: "javascript is preeetyy cool!"
 	}
 ];
-
+function isUser 
 function signIn(username, password){
 for (var i = 0; i < database.length; i++) {
 	if (database [i].username === username && 
