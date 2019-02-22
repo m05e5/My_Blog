@@ -5,17 +5,20 @@ var fun = 5;
 function funFunction() {
 	// child scope
 	var fun = "hellooo";
-	console.log(fun);
+	console.log(1, fun);
 }
-function funFunction() {
+function funerFunction() {
 	// child scope
 	var fun = "Byee";
-	console.log(fun);
+	console.log(2, fun);
 }
-function funFunction() {
+function funestFunction() {
 	// child scope
 	var fun = "AHHHHHHHH";
-	console.log(fun);
+	console.log(3, fun);
 }
 
 console.log(fun);
+funFunction();
+funerFunction();
+funestFunction();
