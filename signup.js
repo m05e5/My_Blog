@@ -4,8 +4,8 @@
 	}
 var database = [
 	{
-		username: "Kirito",
-		password: "Asuna"
+		username: name,
+		password: pass
 	},
 	{
 		username: "sally",
