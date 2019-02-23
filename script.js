@@ -18,7 +18,7 @@ function funestFunction() {
 	console.log(3, fun);
 }
 
-console.log(fun);
+console.log("window", fun);
 funFunction();
 funerFunction();
 funestFunction();
