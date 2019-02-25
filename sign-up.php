@@ -30,11 +30,11 @@ try{
 
 		</style>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<header>
 		<title>
 			Super_Blog
 		</title>
-	</head>
-	<body>
+	
 		<a class='li' href="log-in.php">Log In</a>
 		<a class='li' href="sign-up.php">Sign In</a>
 		<center>
@@ -55,6 +55,9 @@ try{
 		    	 </li>    
 			 </ul>
 		</nav>
+	</header>
+	</head>
+	<body>
 		<p>
 			<h1>
 				<b>
