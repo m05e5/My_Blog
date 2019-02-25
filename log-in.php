@@ -68,19 +68,22 @@ session_start();
 				</h1>
 			</center>
 			<div class="mil">
-			<section >	                    
+			<section >
+			<br>
+			<br>	                    
 		        <form method="POST" action="log-in.php">
 		             <center>
 		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="50" /></br></br>
 		             </center>
 		             <center>
-		             	<input type="password" name="password" id="password" placeholder="password" size="70" maxlength="15" /></br></br>
+		             	<input type="password" name="password" id="password" placeholder="password" size="70" maxlength="15" /></br></br></br></br>
 		            </center>
 		                        
   					<center>
   						<input type="submit" value="send" />
   					</center>
   				</form>
+  				<br><br>
   					
   			</section>
   		</div>
