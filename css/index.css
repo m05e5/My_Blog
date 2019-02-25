@@ -44,3 +44,9 @@ img
     opacity: 0.5;
     filter: alpha(opacity=05);
   }
+
+  section {    
+            margin-left: 300px; 
+            margin-right: 300px;    
+            border: 1px solid blue; 
+          }

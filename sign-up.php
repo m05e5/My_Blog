@@ -88,9 +88,5 @@ try{
 
 		</p>
 
-<?php
-echo $_SESSION['Name'];
-?>
-
 	</body>
 </html>	

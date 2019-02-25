@@ -67,7 +67,8 @@ session_start();
 					</b>
 				</h1>
 			</center>
-			<section>	                    
+			<div class="mil">
+			<section >	                    
 		        <form method="POST" action="log-in.php">
 		             <center>
 		             	<input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="50" /></br></br>
@@ -82,11 +83,13 @@ session_start();
   				</form>
   					
   			</section>
+  		</div>
 		</p>
 		<?php
 		$_SESSION['Email']=$_POST['Email']
 
 		?>
-		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> ans, c'est ça ? :-D    </p> 
+		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> ans, c'est ça ? :-D   
+		</p> 
 </body>
 </html>
