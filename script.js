@@ -24,6 +24,6 @@ var b = prompt("please enter the value of b");
 var c = prompt("please enter the value of c");
 
 function ans(){
-	return b*b-4*a*c;
+	return (b*b-4*a*c);
 }
 ans();
