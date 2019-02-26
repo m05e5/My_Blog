@@ -18,13 +18,12 @@
 // 	}
 // 	return whatHappens;
 // }
- function users () {
-		x = prompt("please enter your name");
-	}
-	users();
-var x = prompt("please enter the value of x");
+alert ("enter the a, b, c of the quadratic")
+var a = prompt("please enter the value of a");
+var b = prompt("please enter the value of b");
+var c = prompt("please enter the value of c");
 
 function ans(){
-	return 3.14*x*x;
+	return b*b-4*a*c;
 }
 ans();
