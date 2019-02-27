@@ -27,10 +27,15 @@ h1{
         color: #760001;    
         border-bottom: 3px solid #760001; 
       }
- header 
+ /*header 
         {
-            background: url('images/separateur.png') repeat-x bottom; 
+            background: url('../mo.jpg') repeat-x bottom; 
         } 
+header.img{
+  height: 12px;
+}*/
+
+
 
 /*nav
   {
