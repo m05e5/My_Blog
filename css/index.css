@@ -27,7 +27,10 @@ h1{
         color: #760001;    
         border-bottom: 3px solid #760001; 
       }
-
+ header 
+        {
+            background: url('images/separateur.png') repeat-x bottom; 
+        } 
 
 /*nav
   {

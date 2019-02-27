@@ -62,11 +62,9 @@
     <title>
       Super_Blog
     </title>
+<header>
     <a class='li' href="log-in.php">Log In</a>
     <a class='li' href="sign-up.php">Sign In</a>
-</head>
-<body>
-
   <center> 
     <h1>
       <marquee bgcolor="white" scrollamount="15">welcome to my super blog </marquee>
@@ -91,7 +89,7 @@
         </li>    
 			</ul>
 	</nav></br></br>
-
+</header>
 </head>
 <body>
   <div class="bor">
