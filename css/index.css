@@ -21,7 +21,12 @@ h1{
         color: #181818;    
         padding-bottom: 3px;    
         text-decoration: none;
-      } nav a:hover {    color: #760001;    border-bottom: 3px solid #760001; }
+      } 
+  nav a:hover 
+      {    
+        color: #760001;    
+        border-bottom: 3px solid #760001; 
+      }
 
 
 /*nav
