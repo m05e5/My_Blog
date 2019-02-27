@@ -1,8 +1,30 @@
 h1{
     color:blue;
   }
+  nav { 
+        display: inline-block;   
+        width: 740px;
+        text-align: right; 
+      } 
+  nav ul 
+      {    
+        list-style-type: none;
+      } 
+  nav li 
+      {    
+        display: inline-block;    
+        margin-right: 15px;
+      } 
+  nav a 
+      {    
+        font-size: 1.3em;    
+        color: #181818;    
+        padding-bottom: 3px;    
+        text-decoration: none;
+      } nav a:hover {    color: #760001;    border-bottom: 3px solid #760001; }
 
-nav
+
+/*nav
   {
     opacity: 1; 
     background-color:rgb(0, 255, 12);
@@ -29,7 +51,7 @@ nav a
   } 
   nav a:hover{
     opacity: 0.5;
-  }
+  }*/
 body
   {
     background: blur(18px);
