@@ -80,7 +80,7 @@ session_start();
 		            </center>
 		                        
   					<center>
-  						<input type="submit" value="Log_In" />
+  						<input type="submit" value="Log_In"/>
   					</center>
   				</form>
   				<br><br>
