@@ -9,7 +9,7 @@ session_start();
 			<style>
 				body 
 					{
-					/*background-image: url('im.JPG');*/
+					background-image: url('im.JPG');
 					background-size: cover;
 				
 					}
