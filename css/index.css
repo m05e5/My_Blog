@@ -80,9 +80,9 @@ img
     filter: alpha(opacity=05);
   }
 
-  section {    
-            margin-left: 380px; 
-            margin-right: 380px;    
+ .mil {  
+ width: 25%;  
+            margin: auto;    
             border: 1px solid ;
             border-radius: 10px; 
             background-color: rgb(232,255,223); ;
