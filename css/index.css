@@ -100,3 +100,23 @@ img
   flex-direction: row;
 
 }
+h3{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 300px; 
+        /*margin-right: 380px;*/
+
+}
+h4{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 80px; 
+  }
+  h5{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 80px; 
+  }
