@@ -27,6 +27,35 @@ try{
     				font-weight: bold;	
     				padding: 2px;	
     			}
+    			.foot{
+  display: flex;
+  width:100%;
+  height: 600px;
+  background-color: #173a60;
+  flex-direction: row;
+
+}
+h3{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 300px; 
+        /*margin-right: 380px;*/
+
+}
+h4{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 80px; 
+  }
+  h5{
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+   margin-left: 80px; 
+  }
+
 
 		</style>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
