@@ -48,7 +48,7 @@ try{
 		     		<a href="Home.php">Home</a>
 		     	</li> 
 		     	<li>
-		     		<a style="color: white;" href="sign-up.php">sign_up</a>
+		     		<a style="color: blue;" href="sign-up.php">sign_up</a>
 		     	</li>
 		    	 <li>
 		    	 	<a href="log-in.php">log_in</a>

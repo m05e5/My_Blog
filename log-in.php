@@ -53,7 +53,7 @@ session_start();
 		     			<a href="sign-up.php">sign_up</a>
 		     		</li>
 			    	<li>
-			    	 	<a style="color: white;" href="log-in.php">log_in</a>
+			    	 	<a style="color: blue ;" href="log-in.php">log_in</a>
 			    	</li>    
 				 </ul>
 		</nav>

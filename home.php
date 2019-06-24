@@ -73,7 +73,7 @@
   <nav>   
 			<ul>
 		     	<li>
-            <a style="color: white;" href="home.php" >
+            <a style="color: blue;" href="home.php" >
               Home
             </a>
           </li>
