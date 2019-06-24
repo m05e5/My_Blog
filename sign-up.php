@@ -42,7 +42,7 @@ try{
 				<b>Welcom to my super blog</b>
 			</h1>
 		</center>
-		
+
 		<nav>   
 			 <ul>  
 		     	<li>
@@ -89,5 +89,38 @@ try{
 
 		</p>
 
+
+
+
+<footer class="foot">
+					<h3 class="finfo">
+						<u>Information</u>
+						<br>
+						<br>
+						About us
+						<br>
+						Term&Condition
+						<br>
+						Services
+					</h3>
+					<h4 class="fsocial">
+						<u>social</u>
+						<br>
+						<img src="pics/facebook.png" alt="Smiley face">
+						<br>
+						<img src="pics/twitter.png" alt="Smiley face">
+						<br>
+						<img src="pics/instagram.png" alt="Smiley face">
+					</h4>
+					<h5 class="fcontactus">
+						<u>Contact us</u>
+						<br>
+						message:<textarea>Enter your message here</textarea>
+						<br>
+						<img src="pics/twitter.png" alt="Smiley face">
+						
+					</h5>
+			<img src="pics/footfoot.png" alt="Smiley face" style="width:350px; height:80px; ">
+		</footer>
 	</body>
 </html>	
