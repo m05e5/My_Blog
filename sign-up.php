@@ -42,6 +42,7 @@ try{
 				<b>Welcom to my super blog</b>
 			</h1>
 		</center>
+		
 		<nav>   
 			 <ul>  
 		     	<li>
