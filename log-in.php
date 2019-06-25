@@ -88,11 +88,11 @@ session_start();
   			</section>
   		</div>
 		</p>
-		<?php
+		<!-- <?php
 		$_SESSION['Email']=$_POST['Email']
 
 		?>
-		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> ans, c'est ça ? :-D   
+		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> --> ans, c'est ça ? :-D   
 		</p> 
 </body>
 </html>

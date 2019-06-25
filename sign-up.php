@@ -30,7 +30,7 @@ try{
     			.foot{
   display: flex;
   width:100%;
-  height: 300px;
+  height: 350px;
   background-color: #173a60;
   flex-direction: row;
 
@@ -150,7 +150,7 @@ h4{
 						<img src="twitter.png" alt="Smiley face">
 						
 					</h5>
-			<img src="footfoot.png" alt="Smiley face" style="width:350px; height:80px; ">
+			<!-- <img src="footfoot.png" alt="Smiley face" style="width:350px; height:80px; "> -->
 		</footer>
 	</body>
 </html>	
