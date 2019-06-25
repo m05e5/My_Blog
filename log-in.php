@@ -95,6 +95,15 @@ session_start();
 		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?>  ans, c'est ça ? :-D-->   
 		</p> 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 		<footer class="foot">
 					<h3 class="finfo">
