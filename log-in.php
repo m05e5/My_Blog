@@ -92,7 +92,39 @@ session_start();
 		$_SESSION['Email']=$_POST['Email']
 
 		?>
-		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?> --> ans, c'est ça ? :-D   
+		 <p>        Je me souviens de toi ! Tu t'appelles <?php echo  $_SESSION['Email']; ?> !<br />        Et ton âge hummm... Tu as <?php echo $_SESSION['Email']; ?>  ans, c'est ça ? :-D-->   
 		</p> 
+
+
+		<footer class="foot">
+					<h3 class="finfo">
+						<u>Information</u>
+						<br>
+						<br>
+						About us
+						<br>
+						Term&Condition
+						<br>
+						Services
+					</h3>
+					<h4 class="fsocial">
+						<u>social</u>
+						<br>
+						<img src="facebook.png" alt="Smiley face">
+						<br>
+						<img src="twitter.png" alt="Smiley face">
+						<br>
+						<img src="instagram.png" alt="Smiley face">
+					</h4>
+					<h5 class="fcontactus">
+						<u>Contact us</u>
+						<br>
+						message:<textarea>Enter your message here</textarea>
+						<br>
+						<img src="twitter.png" alt="Smiley face">
+						
+					</h5>
+			<!-- <img src="footfoot.png" alt="Smiley face" style="width:350px; height:80px; "> -->
+		</footer>
 </body>
 </html>
