@@ -30,16 +30,16 @@ try{
     			.foot{
   display: flex;
   width:100%;
-  height: 350px;
+  height: 200px;
   background-color: #173a60;
   flex-direction: row;
-
+vertical-align: bottom;
 
 }
 h3{
   color: white;
   font-size: 15px;
-  margin-top: 150px;
+  margin-top: 50px;
    margin-left: 300px; 
         /*margin-right: 380px;*/
 
@@ -47,13 +47,13 @@ h3{
 h4{
   color: white;
   font-size: 15px;
-  margin-top: 150px;
+  margin-top: 50px;
    margin-left: 80px; 
   }
   h5{
   color: white;
   font-size: 15px;
-  margin-top: 150px;
+  margin-top: 50px;
    margin-left: 80px; 
   }
 
@@ -119,7 +119,7 @@ h4{
 
 		</p>
 
-
+<br><br><br><br><br><br><br><br><br>
 
 
 <footer class="foot">
